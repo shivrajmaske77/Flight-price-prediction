@@ -1,10 +1,10 @@
-# ✈️ End-to-End Data Science: Flight Ticket Price Prediction (Regression)
+# End-to-End Data Science: Flight Ticket Price Prediction (Regression)
 
 Welcome to the **Flight Ticket Price Prediction** project! You'll walk through the complete data science lifecycle — from raw data to a deployed web application that predicts Indian domestic flight prices in real time.
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 1. Perform **Exploratory Data Analysis (EDA)** on flight booking data.
 2. **Clean and engineer features** (time-of-day encoding, stop mapping, label encoding).
@@ -13,7 +13,7 @@ Welcome to the **Flight Ticket Price Prediction** project! You'll walk through t
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 flight_price_prediction/
@@ -34,7 +34,7 @@ flight_price_prediction/
 
 ---
 
-## 📊 Dataset Features
+##  Dataset Features
 
 | Feature           | Description                                     |
 |-------------------|-------------------------------------------------|
@@ -51,7 +51,7 @@ flight_price_prediction/
 
 ---
 
-## 🚀 Phase 1: The Data Science Lifecycle
+##  Phase 1: The Data Science Lifecycle
 
 ### 1. Setup the Environment
 
@@ -71,7 +71,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> ✅ Your terminal prompt will be prefixed with `(venv)` when the environment is active.
+>  Your terminal prompt will be prefixed with `(venv)` when the environment is active.
 
 ---
 
@@ -90,14 +90,14 @@ The notebook covers:
 - **Evaluation** — MAE, RMSE, R², residual plots, feature importance
 - **Export** — saves `models/flight_price_rf_model.joblib`
 
-> 💡 **Shortcut:** Skip the notebook and train instantly with:
+>  **Shortcut:** Skip the notebook and train instantly with:
 > ```bash
 > python train_model.py
 > ```
 
 ---
 
-## 🌐 Phase 2: Deploying with Django
+##  Phase 2: Deploying with Django
 
 Once your model is saved, launch the web application.
 
@@ -123,7 +123,7 @@ The app will **instantly predict the ticket price (₹)** using your trained mod
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 | Property       | Value                          |
 |----------------|--------------------------------|
@@ -135,17 +135,17 @@ The app will **instantly predict the ticket price (₹)** using your trained mod
 
 ---
 
-## 🖼 Web App Features
+## Web App Features
 
-- ✨ **Glassmorphic UI** with animated sky background & flying plane
-- 📱 Fully **responsive** layout
-- ⚡ **Async prediction** via Fetch API (no page reload)
-- 🎚 Interactive **range slider** for days before departure
-- 🔔 Clear error messaging if the model isn't trained yet
+-  **Glassmorphic UI** with animated sky background & flying plane
+-  Fully **responsive** layout
+-  **Async prediction** via Fetch API (no page reload)
+-  Interactive **range slider** for days before departure
+-  Clear error messaging if the model isn't trained yet
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 **"Model not found" error in the browser?**
 Run `python train_model.py` from the project root first, then restart the server.
